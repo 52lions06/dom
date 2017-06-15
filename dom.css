@@ -1,4 +1,5 @@
-* {
+/* PROBLEM 1*/
+/** {
   box-sizing: border-box;
 }
 
@@ -29,4 +30,38 @@ a.thumbnail:hover {
 
 .thumbnail img {
   max-height: 100%;
+}*/
+
+/* PROBLEM 2*/
+/*
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
 }
+
+main {
+  max-width: 960px;
+  margin: 0 auto;
+  min-width: 250px;
+  padding: 30px;
+}
+
+.lightbulb {
+  border: 1px solid grey;
+  padding: 10px;
+  width: 25%;
+  float: left;
+  cursor: pointer;
+}
+
+.lightbulb img {
+  width: 100%;
+}
+
+.bulb-on {
+  background-color: yellow;
+}*/
+
+/* PROBLEM 3*/
+
+
