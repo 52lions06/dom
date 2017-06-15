@@ -95,11 +95,19 @@ $(document).ready(function() {
 
 
 $("#number-chooser").submit(function( event ){
+
+
 	event.preventDefault();
+
+
   $('.js-results').text(function( num ){
+  	
+
   	var result = [] 
+
+
 	for (var i = 1; i <= num; i++){     ///converting user input into an array 1 - 15
-		
+
 	if (i % 15) {
 	    result.push("fizzBuzz");
 	}
